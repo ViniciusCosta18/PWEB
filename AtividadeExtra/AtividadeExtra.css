@@ -1,0 +1,41 @@
+div 
+{
+  width: 500px;
+  height: 500px;
+}
+
+@media screen and (min-width: 420px) {
+	div{
+		background-color: rgb(0, 0, 0);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	div{
+		background-color: rgb(255, 170, 0);
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	div{
+		background-color: rgb(255, 0, 51);
+	}
+}
+
+@media screen and (min-width: 1080px) {
+	div{
+		background-color: rgb(255, 0, 0);
+	}
+}
+
+@media screen and (min-width: 1366px){
+	div{
+		background-color: rgb(255, 0, 255);
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	div{
+		background-color: rgb(0, 132, 255);
+	}
+}
